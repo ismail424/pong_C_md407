@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "*.html": "html",
+        "types.h": "c",
+        "startup.h": "c",
+        "lcd.h": "c",
+        "display.h": "c",
+        "gpio.h": "c",
+        "time.h": "c"
+    }
+}

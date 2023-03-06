@@ -1,0 +1,24 @@
+{
+	"version": "1.0.0",
+	"configurations": [
+		{
+			"name" : "Cortex Debug",
+			"cwd": "${workspaceRoot}",
+			"executable": "./debug/MOP",
+			"request": "attach",
+			"type": "cortex-debug",
+			"servertype": "external",
+			"gdbPath": "gdb-multiarch",
+			"gdbTarget": "localhost:1234",
+			"preLaunchTask": "build",
+			"preAttachCommands": [
+					"file debug/MOP",
+					"load",
+					"monitor restart",
+			],
+			"postRestartCommands": [
+					"monitor restart",
+			],
+		}
+	]
+}
