@@ -1,0 +1,3 @@
+[submodule "libmd407"]
+	path = libmd407
+	url = https://github.com/pythar-chalmers/libmd407
